@@ -1,3 +1,5 @@
+set -e
+
 HELP_STRING="For instructions, please run JavaSDKDiffCheckerPart1.sh with the -h option"
 if [ "$1" == "--help" ]; then
    echo "$HELP_STRING"

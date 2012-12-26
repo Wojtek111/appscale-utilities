@@ -1,3 +1,5 @@
+set -e
+
 HELP_STRING="This script compares two Java GAE SDK versions which you input manually 
 after you start the script (just the version numbers are needed, this script will 
 download them for you). Only the java files which AppScale cares about are considered 
