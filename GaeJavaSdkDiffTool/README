@@ -1,0 +1,3 @@
+To get the differences for the files that AppScale edits in the GAE Java SDK, 
+you must run part 1 and part 2 of the diff scripts. For information on how to 
+run each script, execute part1 with the command line argument "-h" or "--help". 
