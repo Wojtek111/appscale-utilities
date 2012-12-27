@@ -1,0 +1,1 @@
+To use the sample-app-recompiler, simply run the sample-app-recompiler.sh script. It will prompt you for an SDK version. Then it will run and at the end you should see some output from ant saying "Build Successful" for each sample-app. This script will not work if you do not have ant installed. 
