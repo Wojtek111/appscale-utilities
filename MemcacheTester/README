@@ -2,6 +2,7 @@ To use this tool, edit the Memcached servers your client is connecting to in the
 
 To compile, run "javac -cp spymemcached-2.8.4.jar MemcacheTester.java"
 
-To run, the first command line argument is the key/value you are putting. The second argument is "put" or "get". The third optional argument is to specify one specific server you want to put or get to/from. 
+To run, the first command line argument is the key/value you are putting. The second argument is "put" or "get". The third optional argument is to specify one specific server you want to put or get to/from.
+An example of running this is "java -classpath :spymemcached-2.8.4.jar MemcacheTester test1 get 127.0.0.1"
 
 The tool will print if the put is successful or not and will print what the return value for a get is.  
