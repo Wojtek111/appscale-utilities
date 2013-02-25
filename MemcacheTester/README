@@ -4,7 +4,7 @@ To run this app, here are the command line args:
 1: key 
 2: value
 3: command (put, get, delete, replace, cas, casfail)
-4: custom ip
+4: custom ip (optional)
 
 To run the app, try "java -classpath slf4j-api-1.5.6.jar:slf4j-simple-1.5.6.jar:xmemcached-1.4.1-SNAPSHOT.jar: MemcacheTester testKey testValue put 127.0.0.1"
 
