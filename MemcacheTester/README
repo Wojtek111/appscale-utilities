@@ -1,8 +1,11 @@
-To use this tool, edit the Memcached servers your client is connecting to in the MemcacheTester.java file. 
+To compile this app, use "javac -cp spymemcached-2.8.4.jar MemcacheTester.java"
 
-To compile, run "javac -cp spymemcached-2.8.4.jar MemcacheTester.java"
+To run this app, here are the command line args:
+1: key 
+2: value
+3: command (put, get, delete, replace, cas, casfail)
+4: custom ip
 
-To run, the first command line argument is the key/value you are putting. The second argument is "put" or "get". The third optional argument is to specify one specific server you want to put or get to/from.
-An example of running this is "java -classpath :spymemcached-2.8.4.jar MemcacheTester test1 get 127.0.0.1"
+To run the app, try "java -classpath slf4j-api-1.5.6.jar:slf4j-simple-1.5.6.jar:xmemcached-1.4.1-SNAPSHOT.jar: MemcacheTester testKey testValue put 127.0.0.1"
 
-The tool will print if the put is successful or not and will print what the return value for a get is.  
+If you want to add multiple ips, edit MemcacheTester.java and recompile. 
