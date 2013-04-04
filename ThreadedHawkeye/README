@@ -1,0 +1,14 @@
+Arguments to this program, all required:
+
+1 - number of threads
+2 - number of minutes to run
+3 - url to hawkeye
+4 - port for hawkeye
+5 - language for hawkeye
+6 - suites for hawkeye
+
+For example:
+
+"python ThreadedHawkeye.py 5 3 192.168.111.167 8080 java taskqueue"
+
+This will create a directory for each thread which will append all of its results to a log file. 
